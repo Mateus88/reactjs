@@ -1,0 +1,30 @@
+{
+  "name": "ficha6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.1.0",
+    "jquery": "^3.6.0",
+    "pg": "^8.6.0",
+    "popper.js": "^1.16.1",
+    "react-router-dom": "^5.2.0",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "nodemon": "^2.0.8"
+  }
+}
