@@ -26,5 +26,8 @@
   "devDependencies": {
     "husky": "^6.0.0",
     "nodemon": "^2.0.8"
+  },
+  "engines": {
+    "node": "14"
   }
 }
