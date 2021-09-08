@@ -6,7 +6,7 @@ const cors = require('cors');
 
 // Configurar CORS
 //app.use(express.json())
-app.use(express.static(__dirname + '/'));
+app.use(express.static('client/build'));
 app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Origin', 'http://localhost:3001');
     res.header('Access-Control-Allow-Origin', '*');
